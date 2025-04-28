@@ -14,11 +14,11 @@ Servo myservo;
 
 int IR1 = 2;
 
-int IR2 = 3;
+int IR2 = 4;
 
 
 
-int Slot = 4;           //Total number of parking Slots
+int Slot = 3;           //Total number of parking Slots
 
 
 
@@ -46,7 +46,7 @@ pinMode(IR2, INPUT);
 
   
 
-myservo.attach(4);
+myservo.attach(3);
 
 myservo.write(100);
 
